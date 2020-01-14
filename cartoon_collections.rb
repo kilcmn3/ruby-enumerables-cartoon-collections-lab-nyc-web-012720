@@ -10,7 +10,6 @@ end
 
 def long_planeteer_calls(calls_long)# code an argument here
   # Your code here
-result = calls_long.map{|x| x.length}
   result.any?{|i| i.length >4}
 end
 
