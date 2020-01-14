@@ -10,7 +10,7 @@ end
 
 def long_planeteer_calls(calls_long)# code an argument here
   # Your code here
-calls_long.map{|x| x.length>4 ? true : false}
+calls_long.map{|x| x.length}
 end
 
 def find_the_cheese# code an argument here
