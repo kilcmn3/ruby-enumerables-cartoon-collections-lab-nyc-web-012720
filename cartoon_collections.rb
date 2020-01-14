@@ -23,7 +23,6 @@ def find_the_cheese(contains_cheddar)# code an argument here
   cheese_types = ["cheddar", "gouda", "camembert"]
   contains_cheddar.find do |list, item|
     list = cheese_types
-      if list == item
-        return item
+      list == item ? "#{item}" : nil
   end
 end
