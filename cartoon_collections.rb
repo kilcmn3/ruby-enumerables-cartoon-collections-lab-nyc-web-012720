@@ -10,9 +10,7 @@ end
 
 def long_planeteer_calls(calls_long)# code an argument here
   # Your code here
-calls_long.sort do |x|
-    x.length>4 ? true : false
-  end
+calls_long.length > 4 ? true : false
 end
 
 def find_the_cheese# code an argument here
