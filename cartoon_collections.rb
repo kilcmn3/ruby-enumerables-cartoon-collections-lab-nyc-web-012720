@@ -24,4 +24,6 @@ def find_the_cheese(contains_cheddar)# code an argument here
   contains_cheddar.map do |x|
     if cheese_types.include?(x) == true
       return x
+    else
+      return false
 end
