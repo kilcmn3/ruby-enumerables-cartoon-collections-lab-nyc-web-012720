@@ -22,8 +22,6 @@ def find_the_cheese(contains_cheddar)# code an argument here
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
   contains_cheddar.map do |x|
-    print cheese_types.include?(x)
-      print x
-
+     cheese_types.include?(x) == true ? print x : false
   end
 end
