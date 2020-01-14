@@ -13,7 +13,7 @@ def long_planeteer_calls(calls_long)# code an argument here
     result = calls_long.any?{|i| i.length >4}
     if result == true
       return true
-    elsif calls_long.all?{|a| a.length < 4} == false
+    elsif calls_long.all?{|a| a.length < 4} == true
 
 end
 
