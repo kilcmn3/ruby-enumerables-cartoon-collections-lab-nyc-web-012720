@@ -26,4 +26,6 @@ def find_the_cheese(contains_cheddar)# code an argument here
       return x
     else
       return false
+    end
+  end
 end
